@@ -12,7 +12,11 @@ Installation instructions
 
 2. Drag the "osx-yosemite-master" (downloaded version) or "osx-yosemite” (cloned version) folder to the location of your choice and rename it "Open Ephys"
 
-3. Double-click the "open-ephys" application file to run the software.
+3. Open a terminal, cd to the Open Ephys directory, and run the following commands:
+$ sudo cp libhdf5.8.dylib /usr/lib
+$ sudo cp libhdf5_cpp.8.dylib /usr/lib
+
+4. Double-click the "open-ephys" application file to run the software.
 
 Optional: If you plan on using the GUI with the RHA2000 (analog chip) evaluation board from Intan, you'll need to open a Terminal and run `sudo rm -rf /System/Extensions/FTDIUSBSerialDriver.kext` to properly communicate with the board. This is not necessary if you're using the newer RHD2000 eval board or the Open Ephys acquisition board.
 
