@@ -15,6 +15,7 @@ Installation instructions
 3. Open a terminal, cd to the Open Ephys directory, and run the following commands:
 $ sudo cp libhdf5.8.dylib /usr/lib
 $ sudo cp libhdf5_cpp.8.dylib /usr/lib
+$ sudo cp libzmq.dylib /usr/lib
 
 4. Double-click the "open-ephys" application file to run the software.
 
